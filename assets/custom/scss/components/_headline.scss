@@ -1,0 +1,140 @@
+
+
+.logo {
+  font-size: 26px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 48px;
+  top: 36px;
+  text-transform: uppercase;
+}
+
+#headline {
+  position: relative;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.93);
+  }
+  #headline-content-container {
+    position: absolute;
+    top: 139px;
+    left: 113px;
+  }
+
+  .headline-text {
+    color: $color-main;
+    font-size: 114px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  #form-container {
+    @include make-width(padding-top, 50px);
+    .form-title {
+      font-size: 30px;
+      color: $color-main--light;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    .form-steps {
+      font-size: 25.38px;
+      margin-bottom: 46px;
+      a {
+        color: $color-main--light;
+      }
+      span {
+        margin: 0 16px;
+      }
+    }
+  }
+
+  #headline-form {
+    .form-group {
+      input[type="text"] {
+        background-color: $input-bg-color;
+        border-radius: 10px;
+        border: 0;
+        padding-left: 35px;
+
+        &::-webkit-input-placeholder {
+          color: $color-main--light;
+          text-align: center;
+        }
+        &::-moz-placeholder {
+          color: $color-main--light;
+          text-align: center;
+        }
+        &:-ms-input-placeholder {
+          color: $color-main--light;
+          text-align: center;
+        }
+        &::-ms-input-placeholder {
+          color: $color-main--light;
+          text-align: center;
+        }
+        &::placeholder {
+          color: $color-main--light;
+          text-align: center;
+        }
+        &.top-row-input {
+          position: relative;
+        }
+      }
+      .user-icon {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+        z-index: 2;
+      }
+    }
+  }
+}
+
+
+.bottom-row-input {
+  position: relative;
+}
+.email-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate3d(0,-50%,0);
+  z-index: 2;
+}
+
+.form-check {
+  label {
+    font-size: 11px;
+    color: $color-main--light;
+    vertical-align: text-top;
+  }
+}
+
+.btn-submit {
+  background-color: $color-secondary;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 21px;
+  margin-bottom: 21px;
+}
+
+.learn-more {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: $text-color;
+  margin-bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+}

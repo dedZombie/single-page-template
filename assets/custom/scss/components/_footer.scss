@@ -1,0 +1,58 @@
+#footer {
+  padding-top: 44px;
+  padding-bottom: 37px;
+  background-color: #1f1f1f;
+}
+
+.footer-logo {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.footer-disclaimer {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: $footer-text;
+  text-align: center;
+  width: 78.5%;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+
+.important-text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: $footer-text;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+
+  li {
+    padding: 0 1rem;
+    position: relative;
+    &:not(:last-child) {
+      &::after {
+        content: ".";
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate3d(0, 3px, 0);
+        color: white;
+      }
+    }
+    a {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      color: $footer-text;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.text-focus {
+  color: $color-secondary;
+}
+
+.w-90 {
+  @include make-width(width, calc(100% - 30px));
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(40, 180, 93, .9);
+}

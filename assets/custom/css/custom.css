@@ -1,0 +1,268 @@
+/*
+  *
+  * Mixin that creates variable width
+  *
+*/
+.text-focus {
+  color: #28b45d; }
+
+.w-90 {
+  width: calc(100% - 30px); }
+
+a:hover {
+  text-decoration: none;
+  color: white; }
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(40, 180, 93, 0.9); }
+
+.logo {
+  font-size: 26px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 48px;
+  top: 36px;
+  text-transform: uppercase; }
+
+#headline {
+  position: relative; }
+  #headline .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.93); }
+  #headline #headline-content-container {
+    position: absolute;
+    top: 139px;
+    left: 113px; }
+  #headline .headline-text {
+    color: #595858;
+    font-size: 114px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  #headline #form-container {
+    padding-top: 50px; }
+    #headline #form-container .form-title {
+      font-size: 30px;
+      color: #b4b4b4;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      margin-bottom: 0; }
+    #headline #form-container .form-steps {
+      font-size: 25.38px;
+      margin-bottom: 46px; }
+      #headline #form-container .form-steps a {
+        color: #b4b4b4; }
+      #headline #form-container .form-steps span {
+        margin: 0 16px; }
+  #headline #headline-form .form-group input[type="text"] {
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 35px; }
+    #headline #headline-form .form-group input[type="text"]::-webkit-input-placeholder {
+      color: #b4b4b4;
+      text-align: center; }
+    #headline #headline-form .form-group input[type="text"]::-moz-placeholder {
+      color: #b4b4b4;
+      text-align: center; }
+    #headline #headline-form .form-group input[type="text"]:-ms-input-placeholder {
+      color: #b4b4b4;
+      text-align: center; }
+    #headline #headline-form .form-group input[type="text"]::-ms-input-placeholder {
+      color: #b4b4b4;
+      text-align: center; }
+    #headline #headline-form .form-group input[type="text"]::placeholder {
+      color: #b4b4b4;
+      text-align: center; }
+    #headline #headline-form .form-group input[type="text"].top-row-input {
+      position: relative; }
+  #headline #headline-form .form-group .user-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    z-index: 2; }
+
+.bottom-row-input {
+  position: relative; }
+
+.email-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  z-index: 2; }
+
+.form-check label {
+  font-size: 11px;
+  color: #b4b4b4;
+  vertical-align: text-top; }
+
+.btn-submit {
+  background-color: #28b45d;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 21px;
+  margin-bottom: 21px; }
+
+.learn-more {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #9d9d9d;
+  margin-bottom: 0;
+  margin: 0 auto;
+  text-align: center; }
+
+.main-content {
+  padding-top: 97px;
+  padding-bottom: 127px; }
+
+.main-content-title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #28b45d;
+  margin-bottom: 28px; }
+
+.sub-title-content {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: #9d9d9d;
+  width: 58%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 127px; }
+
+.card-steps {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-bottom: 70px; }
+
+.card-number {
+  text-align: center;
+  font-size: 31px;
+  color: #28b45d;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 31px; }
+
+.card-steps.active .card-number, .card-steps.active h5 {
+  color: #28b45d; }
+.card-steps .card-number, .card-steps h5, .card-steps p {
+  color: #a09f9f; }
+
+.btn-enroll {
+  background-color: #28b45d;
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding: 28px;
+  display: block;
+  margin: 0 auto;
+  width: 36.7%;
+  border-radius: 10px; }
+
+#faq-section {
+  background-color: #28b45d;
+  padding-top: 75px;
+  padding-bottom: 97px; }
+
+.faq-title {
+  font-size: 42px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 87px; }
+
+.faq-list {
+  list-style: none;
+  padding-left: 0; }
+  .faq-list li {
+    margin-bottom: 21px; }
+    .faq-list li p {
+      font-family: Arial, sans-serif;
+      font-size: 19px;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: 19px; }
+
+.faq-list-link {
+  padding: 0 15px; }
+  .faq-list-link i.fa-plus-square,
+  .faq-list-link i.fa-minus-square {
+    color: white;
+    font-size: 31px; }
+
+.faq-answer-collapse {
+  padding-left: 60px;
+  font-size: 16px;
+  font-weight: normal;
+  color: white; }
+
+#footer {
+  padding-top: 44px;
+  padding-bottom: 37px;
+  background-color: #1f1f1f; }
+
+.footer-logo {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin-bottom: 48px; }
+
+.footer-disclaimer {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #b7b7b7;
+  text-align: center;
+  width: 78.5%;
+  margin: 0 auto;
+  margin-bottom: 57px; }
+
+.important-text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #b7b7b7; }
+
+.footer-nav {
+  display: flex;
+  justify-content: center; }
+  .footer-nav li {
+    padding: 0 1rem;
+    position: relative; }
+    .footer-nav li:not(:last-child)::after {
+      content: ".";
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translate3d(0, 3px, 0);
+      color: white; }
+    .footer-nav li a {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      color: #b7b7b7; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,8 @@
+/*
+  *
+  * Mixin that creates variable width
+  *
+*/
+@mixin make-width($property, $value) {
+  #{$property}: $value;
+}
